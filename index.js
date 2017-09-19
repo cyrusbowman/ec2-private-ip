@@ -6,7 +6,7 @@ function privateIP() {
     .timeout(100)
     .then((ip) => {
       if (!ip || !ip.text || typeof ip.text != 'string' || ip.text.length == 0) throw new Error('AWS returned invalid ip address.');
-      return ip;
+      return ip.text;
     });
 }
 
