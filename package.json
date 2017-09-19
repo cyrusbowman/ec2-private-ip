@@ -1,0 +1,20 @@
+{
+  "name": "ec2-private-ip",
+  "version": "1.0.0",
+  "description": "Retrieve EC2 private-ipv4 from instance meta-data.",
+  "keywords": [
+    "ec2",
+    "aws",
+    "ip",
+    "meta-data"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cyrus Bomwan <cyrus@qlever.io>",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^3.6.0"
+  }
+}
